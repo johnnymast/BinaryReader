@@ -10,5 +10,11 @@
             "email": "mastjohnny@gmail.com"
         }
     ],
+    "autoload-dev": {
+        "psr-4": {
+            "JM\\BinaryReader\\": "src/",
+            "JM\\BinaryReader\\Tests\\": "tests/"
+        }
+    },
     "require": {}
 }
